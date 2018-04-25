@@ -15,7 +15,7 @@ How to run and use APIs:
 STEP 1: SETUP
 1. Setup JRE 8 on your local machine.
 2. Download the jar file CurrentExchange-1.0-SNAPSHOT.jar to your local folder.
-3. Copy folder data to the same folder with the CurrentExchange-1.0-SNAPSHOT.jar file.
+3. Copy folder "data" to the same folder with the CurrentExchange-1.0-SNAPSHOT.jar file.
 4. Go to CurrentExchange-1.0-SNAPSHOT.jar folder and run the command: java -jar CurrentExchange-1.0-SNAPSHOT.jar
 5. Open Chrome, parse the link 
  -     http://localhost:8080/swagger-ui.html#/rate-exchange-controller
