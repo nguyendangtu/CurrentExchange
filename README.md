@@ -45,8 +45,9 @@ STEP 2: USE APIs
  -     startDate: 2017-01-01
  -     endDate  : 2017-01-03
  -     currency : SGD
- Click 'Try it out!' and see the result   
- If data existing, they will return a list of Rate (date, currency, rate). rate will be empty if the data business day in range is not existing.
+Click 'Try it out!' and see the result
+If data existing, they will return a list of Rate (date, currency, rate). rate will be empty 
+
 --------------------
 Download source and Maven build:
 --------------------
