@@ -13,13 +13,15 @@ import java.util.TreeMap;
 
 public class FileUtilsTest {
 
+    private static final String DATA_PATH = "data";
+
     @Test
     public void getFilePath() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(Constants.YYYY_MM_DD);
         String businessDate = "2017-01-01";
         LocalDate localDate = LocalDate.parse(businessDate, formatter);
-        String output = FileUtils.getFilePath("/data", localDate);
-        Assert.assertEquals("/data/2017/2017-01-01.txt", output);
+        String output = FileUtils.getFilePath(DATA_PATH, localDate);
+        Assert.assertEquals("data/2017/2017-01-01.txt", output);
     }
 
     @Test
@@ -27,7 +29,7 @@ public class FileUtilsTest {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(Constants.YYYY_MM_DD);
         String businessDate = "2017-01-01";
         LocalDate localDate = LocalDate.parse(businessDate, formatter);
-        String path = FileUtils.getFilePath("/data", localDate);
+        String path = FileUtils.getFilePath(DATA_PATH, localDate);
         TreeMap<String, String> output = FileUtils.getRates(path);
         output.forEach((k, v) -> System.out.println("key:" + k + ",value:" + v));
         Assert.assertNotNull(output);
@@ -39,7 +41,7 @@ public class FileUtilsTest {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(Constants.YYYY_MM_DD);
         String businessDate = "2917-01-01";
         LocalDate localDate = LocalDate.parse(businessDate, formatter);
-        String path = FileUtils.getFilePath("/data", localDate);
+        String path = FileUtils.getFilePath(DATA_PATH, localDate);
         FileUtils.getRates(path);
     }
 
@@ -48,18 +50,17 @@ public class FileUtilsTest {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern(Constants.YYYY_MM_DD);
         String startDate = "2017-01-01";
         String endDate = "2017-01-03";
-        String rootPath = "/data";
         LocalDate localStartDate = LocalDate.parse(startDate, formatter);
         LocalDate localEndDate = LocalDate.parse(endDate, formatter);
         List<LocalDate> businessDays = DateUtils.getBusinessDays(localStartDate, localEndDate);
-        List<String> output = FileUtils.getFilePaths(rootPath, businessDays);
+        List<String> output = FileUtils.getFilePaths(DATA_PATH, businessDays);
         Assert.assertNotNull(output);
         output.forEach(System.out::println);
         Assert.assertEquals(3, output.size());
         Collections.sort(output);
-        Assert.assertEquals("/data/2017/2017-01-01.txt", output.get(0));
-        Assert.assertEquals("/data/2017/2017-01-02.txt", output.get(1));
-        Assert.assertEquals("/data/2017/2017-01-03.txt", output.get(2));
+        Assert.assertEquals("data/2017/2017-01-01.txt", output.get(0));
+        Assert.assertEquals("data/2017/2017-01-02.txt", output.get(1));
+        Assert.assertEquals("data/2017/2017-01-03.txt", output.get(2));
     }
 
 

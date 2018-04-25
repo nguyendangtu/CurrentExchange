@@ -15,8 +15,9 @@ How to run and use APIs:
 STEP 1: SETUP
 1. Setup JRE 8 on your local machine.
 2. Download the jar file CurrentExchange-1.0-SNAPSHOT.jar to your local folder.
-3. Go to download folder and run the command: java -jar CurrentExchange-1.0-SNAPSHOT.jar
-4. Open Chrome, parse the link 
+3. Copy folder data to the same folder with the CurrentExchange-1.0-SNAPSHOT.jar file.
+4. Go to CurrentExchange-1.0-SNAPSHOT.jar folder and run the command: java -jar CurrentExchange-1.0-SNAPSHOT.jar
+5. Open Chrome, parse the link 
  -     http://localhost:8080/swagger-ui.html#/rate-exchange-controller
 
 STEP 2: USE APIs
@@ -69,8 +70,8 @@ II. DETAILS
  
 Application having Controller, Service, Constants and Bean package.
 ##### Application.java: 
-- boot application and scan and init all beans into com.singtel.currentexchange
-we enable cache by using annotation @EnableCaching
+- boot application to scan and init all beans into com.singtel.currentexchange
+- We enable cache by using annotation @EnableCaching
 ##### SwaggerConfig.java: 
 - Swagger 2 is enabled through the @EnableSwagger2 annotation. This configuration integrate with 
 with swagger 2 into spring boot project to make entire APIs will be available through swagger.
