@@ -1,14 +1,12 @@
-package com.singtel.currentexchange.utils;
+package com.currentexchange.utils;
 
-import com.singtel.currentexchange.constants.Constants;
+import com.currentexchange.constants.Constants;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class DateUtilsTest {
 

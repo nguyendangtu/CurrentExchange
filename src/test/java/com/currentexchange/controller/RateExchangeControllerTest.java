@@ -1,10 +1,10 @@
-package com.singtel.currentexchange.controller;
+package com.currentexchange.controller;
 
 
+import com.currentexchange.BaseTest;
+import com.currentexchange.bean.Rate;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.singtel.currentexchange.BaseTest;
-import com.singtel.currentexchange.bean.Rate;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.http.MediaType;

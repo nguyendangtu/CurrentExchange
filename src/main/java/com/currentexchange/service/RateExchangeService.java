@@ -1,6 +1,6 @@
-package com.singtel.currentexchange.service;
+package com.currentexchange.service;
 
-import com.singtel.currentexchange.bean.Rate;
+import com.currentexchange.bean.Rate;
 
 import java.time.LocalDate;
 import java.util.List;

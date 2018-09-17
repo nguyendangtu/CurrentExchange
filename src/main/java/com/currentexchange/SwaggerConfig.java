@@ -1,4 +1,4 @@
-package com.singtel.currentexchange;
+package com.currentexchange;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

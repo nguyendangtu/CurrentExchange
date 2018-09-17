@@ -1,0 +1,25 @@
+2018-09-18 01:09:24 [main] INFO  c.c.c.RateExchangeControllerTest - Starting RateExchangeControllerTest on JOHN-NGUYEN with PID 3508 (started by Johnguyen in F:\GITHUB\CurrentExchange)
+2018-09-18 01:09:24 [main] INFO  c.c.c.RateExchangeControllerTest - No active profile set, falling back to default profiles: default
+2018-09-18 01:09:30 [main] INFO  c.c.c.RateExchangeControllerTest - Started RateExchangeControllerTest in 7.146 seconds (JVM running for 11.939)
+2018-09-18 01:09:30 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2018-09-18 01:09:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2018-09-18 01:09:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 21 ms
+2018-09-18 01:11:40 [main] INFO  c.c.c.RateExchangeControllerTest - Starting RateExchangeControllerTest on JOHN-NGUYEN with PID 4664 (started by Johnguyen in F:\GITHUB\CurrentExchange)
+2018-09-18 01:11:40 [main] INFO  c.c.c.RateExchangeControllerTest - No active profile set, falling back to default profiles: default
+2018-09-18 01:11:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$1056db84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-18 01:11:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$4caa028] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-18 01:11:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-18 01:11:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-18 01:11:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-18 01:11:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration$$EnhancerBySpringCGLIB$$a6661309] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-18 01:11:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheManager' of type [org.springframework.cache.concurrent.ConcurrentMapCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-18 01:11:42 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-18 01:11:45 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-09-18 01:11:45 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-09-18 01:11:45 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-09-18 01:11:45 [main] INFO  c.c.c.RateExchangeControllerTest - Started RateExchangeControllerTest in 5.088 seconds (JVM running for 6.95)
+2018-09-18 01:11:45 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring FrameworkServlet ''
+2018-09-18 01:11:45 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2018-09-18 01:11:45 [main] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 22 ms
+2018-09-18 01:11:45 [main] INFO  com.currentexchange.utils.FileUtils - get file path with root path data and business date 2017-01-01
+2018-09-18 01:11:45 [main] INFO  com.currentexchange.utils.FileUtils - get rates from file name data/2017/2017-01-01.txt

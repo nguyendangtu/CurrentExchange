@@ -1,9 +1,9 @@
-package com.singtel.currentexchange.service.Impl;
+package com.currentexchange.service.Impl;
 
-import com.singtel.currentexchange.bean.Rate;
-import com.singtel.currentexchange.service.RateExchangeService;
-import com.singtel.currentexchange.utils.DateUtils;
-import com.singtel.currentexchange.utils.FileUtils;
+import com.currentexchange.bean.Rate;
+import com.currentexchange.service.RateExchangeService;
+import com.currentexchange.utils.DateUtils;
+import com.currentexchange.utils.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

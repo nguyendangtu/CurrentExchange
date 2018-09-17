@@ -1,4 +1,4 @@
-package com.singtel.currentexchange.utils;
+package com.currentexchange.utils;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

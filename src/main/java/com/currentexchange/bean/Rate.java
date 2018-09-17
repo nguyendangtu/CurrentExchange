@@ -1,4 +1,4 @@
-package com.singtel.currentexchange.bean;
+package com.currentexchange.bean;
 
 import java.io.Serializable;
 

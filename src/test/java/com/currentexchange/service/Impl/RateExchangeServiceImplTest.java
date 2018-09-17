@@ -1,9 +1,9 @@
-package com.singtel.currentexchange.service.Impl;
+package com.currentexchange.service.Impl;
 
-import com.singtel.currentexchange.BaseTest;
-import com.singtel.currentexchange.bean.Rate;
-import com.singtel.currentexchange.constants.Constants;
-import com.singtel.currentexchange.service.RateExchangeService;
+import com.currentexchange.BaseTest;
+import com.currentexchange.bean.Rate;
+import com.currentexchange.constants.Constants;
+import com.currentexchange.service.RateExchangeService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

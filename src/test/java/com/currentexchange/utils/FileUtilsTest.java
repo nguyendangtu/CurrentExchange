@@ -1,6 +1,6 @@
-package com.singtel.currentexchange.utils;
+package com.currentexchange.utils;
 
-import com.singtel.currentexchange.constants.Constants;
+import com.currentexchange.constants.Constants;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,8 +1,8 @@
-package com.singtel.currentexchange.controller;
+package com.currentexchange.controller;
 
-import com.singtel.currentexchange.bean.Rate;
-import com.singtel.currentexchange.constants.Constants;
-import com.singtel.currentexchange.service.RateExchangeService;
+import com.currentexchange.bean.Rate;
+import com.currentexchange.constants.Constants;
+import com.currentexchange.service.RateExchangeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

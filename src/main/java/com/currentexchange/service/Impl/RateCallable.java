@@ -1,7 +1,7 @@
-package com.singtel.currentexchange.service.Impl;
+package com.currentexchange.service.Impl;
 
-import com.singtel.currentexchange.bean.Rate;
-import com.singtel.currentexchange.utils.FileUtils;
+import com.currentexchange.bean.Rate;
+import com.currentexchange.utils.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

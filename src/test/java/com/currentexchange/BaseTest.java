@@ -1,4 +1,4 @@
-package com.singtel.currentexchange;
+package com.currentexchange;
 
 import org.junit.Before;
 import org.junit.runner.RunWith;
