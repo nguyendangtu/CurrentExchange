@@ -4,6 +4,5 @@
 .project
 .settings/
 /target/**
-log
-/log
-/log/*
+log/
+log/*
